@@ -1,0 +1,393 @@
+/*le fond est blanc*/
+/*BODY {background-color:white}*/
+body { /* REDEFINITION DU CORPS DE LA PAGE */
+	background-color: #FFFFFF;
+	background-image: url(../interface/degradeB.gif) ;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	margin: 0;
+    text-align: center;
+	height:100%;
+	}
+	body, html { /* REDEFINITION DU CORPS DE LA PAGE */
+	height: 100%;
+	/*min-width: 100%;*/
+}
+
+.off {display:none}
+.on {display:inline}
+
+html #colorline { /* hack ie : on decale les strilles de 3px */
+background:  url(../interface/strilles6b.gif) center repeat-x;
+}
+
+#colorline { /* strilles noires haut sans decalage de 3px*/
+position:absolute;
+left:0px;
+width:100%;
+height:134px;
+background:  url(../interface/strilles6.gif) center repeat-x;
+}
+/*gestion des images*/
+
+img { /* REDEFINITION DES IMAGES */
+	border: none;
+	vertical-align: top;
+}
+/*On utilise le rouge pour les ancres non consultées (bleus si consultées) et entêtes*/
+/*H1 {color:#ca0000;text-align:center}*/
+h1 { /* REDEFINITION DU STYLE H1 POUR LES TITRES */
+	font-size: 16px;
+	font-weight: bold;
+	color:#7B714D;/*#791929;*//*#EE7524;*/
+	margin-top: 0px;
+	margin-left:40px;
+	font-family:arial;
+	width:400px;
+}
+h2 { /* REDEFINITION DU STYLE H2 POUR LES CHAPEAUX */
+	font-size: 11px;
+	font-weight: bold;
+	color: #791929;
+	margin-top: 6px;
+	margin-left:px;
+	/*width:350px;*/
+	height:15px;
+}
+h3 { /* REDEFINITION DU STYLE H3 POUR LES INTERTITRES */
+	font-size: 11px;
+	font-weight: bold;
+	color: #467D46;
+	margin-top: 6px;
+	margin-left:40px;
+	width:400px;
+	height:15px;
+}
+h4 {
+color:#7B714D;
+font-size: 11px;
+font-weight: bold;
+margin-top:18px;
+}
+h5 { /* REDEFINITION DU STYLE H3 POUR LES SIGNATURES */
+	font-size: 10px;
+	font-weight: normal;
+	color: #C58B3E;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+h6 { /* REDEFINITION DU STYLE H3 POUR LES SIGNATURES */
+	font-size: 16px;
+	font-weight: bold;
+	color: red;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+A.CAPTION {font-size:10pt}
+A {color:#ca0000}
+a,a:link
+{
+  color:/*#ca0000*/blue;
+}
+a:visited
+{
+  color:purple;
+  background-color:;
+}
+a:active
+{
+  color:blue;
+  background-color:;
+}
+/*Alternance des couleurs sur les tableaux*/
+TR.MPAP
+{
+  background-color:;
+  height:10px;
+  width:10;
+  font-size:14 pt;
+  font-style:italic;
+  font-weight:normal;
+}
+TD.MPAP
+{
+  background-color:;
+  height:10px;
+  font-size:14 pt;
+  font-style:italic;
+  font-weight:normal;
+}
+TR.A0
+{
+  background-color:ghostwhite;
+}
+TR.A1
+{
+  background-color:ivory;
+}
+
+TR.MENU
+{
+  border :black;
+  background-color:grey;
+  color:black;
+  text-decoration:none;
+  font-weight:bold;
+  font-family:sans-serif;
+  font-size:12pt;
+}
+TR.MENU2
+{
+  background-color:blue;
+  color:yellow;
+  text-decoration:none;
+  font-weight:;
+  font-family:sans-serif;
+  font-size:14pt;
+}
+
+/*menu : fond rouge ancre non soulignées et blanches*/
+A.MENU {background-color:null;color:white;text-decoration:none;font-weight:bold;font-family:sans-serif;font-size:10pt;}
+
+A.MENU2 {background-color:null;color:white;text-decoration:none;font-weight:bold;font-family:sans-serif;font-size:10pt;}
+
+/*titre : couleur rouge, grande taille*/
+A.TD.TITRE {color:#ca0000;font-weight:bold;font-size:10pt;text-align:center;font-family:sans-serif;}
+/*cellule donnée*/
+TD
+{
+text-align:center;
+font-family:sans-serif;
+font-size:8pt;
+width:6%;
+height:5%;
+overflow:auto;
+}
+/*cellule tête*/
+TH {background-color:#DDE2CC;font-weight:bold;text-align:center;font-family:sans-serif;font-size:8pt;}
+/*TH2 {background-color:linen;font-weight:bold;text-align:center;font-family:sans-serif;font-size:10pt;}*/
+
+/*ancres*/
+A {font-size:8pt;}
+/*listes à puce*/
+LI {font-size:8pt;text-align:left;}
+/*alignement du contenu de cellule*/
+TD.DROITE{text-align:right;}
+TD.CENTRE{text-align:center;}
+TD.GAUCHE{text-align:left;}
+/*div#bandeau {
+	width : 100%;
+	height : 20 px;
+}*/
+#menuhori {
+	width : 5%;
+	height : 10%;
+}
+#menugauche {
+	position : absolute;
+	left : 2px;
+	top : 91px;
+	width : 160px;
+	height : 440px;
+}
+#menugaucheh {
+	position: absolute;
+	left : 0%;
+	top : 7%;
+	width : 18%;
+	height : 16%;
+	/*width : 90%;*/
+
+}
+#menugauchem {
+	position : absolute;
+	left:0;
+	top : 28%;
+	width : 20%;
+	height : 10%;
+	/*width : 90%;*/
+}
+#menugaucheb {
+	position : absolute;
+	left : 8px;
+	top : 380px;
+	width : 150px;
+	height : 60px;
+}
+#wrapper {
+		width: 660px;
+		padding: 20px;
+		margin: 0 auto;
+		border: 2px solid #dddddd;
+		border-top: 0;
+		background: #ffffff;
+		}
+.scContainer p {
+		font-size: 1.1em;
+		margin-bottom: 1.4em;
+		}
+
+.scContainer {
+		position: relative;
+		float: right;
+		width: 250px;
+		margin: 0 0 20px 20px;
+		}
+
+.scContent {
+		padding: 2% ;
+		width: 98%;
+		height: 90%;
+		overflow-x: auto;
+		overflow-y: auto;
+		/*background: #dddddd url(sc-background.gif);*/
+		}	
+.scContentimp {   /*gestion de la page import de données*/
+		/*padding: px ; */
+		width: 90%;
+		height: 80%;
+		overflow: auto;
+		/*background: #dddddd url(sc-background.gif);*/
+		}
+
+#cont_princ {
+	height: 86%;
+	position: absolute;
+	/*z-index:5;*/
+	/*visibility:visible;*/
+	left:17%;
+	width:80%;
+	top:12%;
+	/*float:left;*/
+	clear : left;
+}
+
+#cont_princ2 {
+	height: 30%;
+	position: absolute;
+	/*z-index:5;*/
+	/*visibility:visible;*/
+	left:22%;
+	width:75%;
+	top:18%;
+	/*float:left;*/
+	clear : left;
+}
+
+#bandeau { /* DEFINITION DU BANDEAU IDENTITAIRE INTRANET LA POSTE */
+	width : 100%;
+	height: 11%;
+	position: absolute;
+	top:0%;
+	right: px;
+	background:  url(interface/bandeau3.gif);
+	background-color: none;
+}
+#logocourrier { /* DEFINITION DU LOGO COURRIER INTRANET LA POSTE */
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 11px;
+	left: 26px;
+}
+
+#titresite { /* DEFINITION DU TITRE DU SITE */
+	position: absolute;
+	top: 16px;
+	left: 62px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #788B99;
+}
+#titrepage { /* DEFINITION DU TITRE DU SITE */
+	position: absolute;
+	top: 80%;
+	left: 250px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #788B99;
+}
+#cartouche2 { /* DEFINITION DU CARTOUCHE OUTILS */
+	width: 750px;
+	height: 19px;
+	background-color: none;
+	position: absolute;
+	text-align: right;
+	top: 42px;
+	right: 12px;
+	padding-right: 10px;
+	font-size: 10px;
+	color: #788B99;
+}
+#cartouche2 a { /* REDEFINITION DES LIENS DU CARTOUCHE OUTILS */
+	text-decoration: underline;
+	color: #788B99;
+}
+#cartouche2 a:hover { /* REDEFINITION DES LIENS AU SURVOL DU CARTOUCHE OUTILS */
+	text-decoration: none;
+	color: #788B99;
+}
+#cartouche2 form { /* REDEFINITION DES FORMULAIRES DU CARTOUCHE OUTILS */
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+#cartouche2 input { /* REDEFINITION DES ELEMENTS DE FORMULAIRE DU CARTOUCHE OUTILS */
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+	vertical-align: middle;
+}
+#couleurdominante { /* DEFINITION DE LA COULEUR DOMINANTE DU SITE */
+	width: 400px;
+	height:40px;
+	position: absolute;
+	top: 57px;
+	left: -25px;
+	background-color: none;
+}
+#couleurdominante a{ /* DEFINITION DE LA COULEUR DOMINANTE DU SITE */
+color:#005AA9;
+font-size: 11px;
+font-weight: bold;
+text-decoration:none;
+margin-left:15px;
+}
+#couleurdominante a:hover{ /* DEFINITION DE LA COULEUR DOMINANTE DU SITE */
+color:#005AA9; /*#7B714D;*/
+font-size: 11px;
+font-weight: bold;
+text-decoration:underline;
+}
+#couleurdominante2 { /* DEFINITION DE LA COULEUR DOMINANTE DU SITE */
+	width: 200px;
+	position: absolute;
+	top: 57px;
+	left: 600px;
+	background-color: none;
+}
+#couleurdominante2 a{ /* DEFINITION DE LA COULEUR DOMINANTE DU SITE */
+color:#005AA9;
+font-size: 11px;
+font-weight: bold;
+text-decoration:none;
+margin-left:15px;
+}
+#couleurdominante2 a:hover{ /* DEFINITION DE LA COULEUR DOMINANTE DU SITE */
+color:#005AA9; /*#7B714D;*/
+font-size: 11px;
+font-weight: bold;
+text-decoration:underline;
+}
+#logobas
+{	width:100%;
+	height:5%;
+	top:95%;
+	/*left:px;
+        right:Px;*/
+	background:  url(interface/pied2.gif);
+	position: absolute;
+	/*z-index:1;*/
+	clear:left;
+}

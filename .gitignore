@@ -1,0 +1,7 @@
+#test gitignore pour php
+
+/.settings/
+.builpath
+.project
+
+pconnect.php
